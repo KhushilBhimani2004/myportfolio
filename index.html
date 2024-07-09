@@ -19,57 +19,7 @@
 
     <style>
 
-  .hero {
-    position: relative;
-    background: linear-gradient(120deg, #d4fc79, #96e6a1);
-    overflow: hidden;
-    animation: gradient-animation 10s ease infinite;
-  }
-
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-
-    /* Additional animation for moving circles */
-    @keyframes move-circles {
-      0% {
-        transform: translateY(0) translateX(0);
-      }
-      50% {
-        transform: translateY(-50px) translateX(50px);
-      }
-      100% {
-        transform: translateY(0) translateX(0);
-      }
-    }
-
-    /* Styling for the moving circles */
-    .moving-circle {
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.5);
-      animation: move-circles 3s ease-in-out infinite;
-    }
-
-    .circle-1 {
-      top: 30%;
-      left: 10%;
-    }
-
-    .circle-2 {
-      top: 60%;
-      left: 80%;
-    }
-
+  
 
       /*======================================
       //--//-->   ABOUT
@@ -176,8 +126,6 @@
       </div>
     </nav>
     <section id="home-section" class="hero">
-<div class="moving-circle circle-1"></div> <!-- k -->
-<div class="moving-circle circle-2"></div> <!-- k -->
       <div class="home-slider owl-carousel">
         <div class="slider-item">
           <div class="overlay"></div>
